@@ -11,6 +11,6 @@ jobs:
     - uses: soichisumi/issue-copy-action@v0.2.0
       with:
         keyword: "/copy"
-        targetRepository: mentorchita/newgen
+        targetRepository: mentorchita/GenerationTech
         githubToken: ${{ secrets.SECTRET_TOCKEN }}
         contentOfNewIssue: 'prefix of newly created issue'
