@@ -16,6 +16,6 @@ jobs:
           GITHUB_OWNER: 'mentorchita'
           GITHUB_REPOSITORY: 'newgen'
           GITHUB_DEST_REPOSITORY: 'GenerationTech'
-          GITHUB_ACCESS_TOKEN:  ${{ secrets.SECTRET_TOCKEN }}
+          GITHUB_ACCESS_TOKEN:  ${{ secrets.SECRET_TOKEN }}
           
 
