@@ -13,4 +13,4 @@ jobs:
         keyword: "/copy"
         targetRepository: mentorchita/GenerationTech
         githubToken: ${{ secrets.SECTRET_TOCKEN }}
-        contentOfNewIssue: 'prefix of newly created issue'
+        
