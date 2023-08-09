@@ -11,11 +11,15 @@ jobs:
       issues: write
     steps:
       - name: Transfer issue
-        uses: iaia/issue-copier@v1.2
-        with:
-          GITHUB_OWNER: 'mentorchita'
-          GITHUB_REPOSITORY: 'newgen'
-          GITHUB_DEST_REPOSITORY: 'GenerationTech'
-          GITHUB_ACCESS_TOKEN:  ${{ secrets.SECRET_TOKEN }}
+        uses: soichisumi/issue-copy-action@v0.2.0
+          with:
+            keyword: "/copy"
+            targetRepository: mentorchita/newgen
+            githubToken: ${{ secrets.SECRET_TOKEN }}
+            contentOfNewIssue: 'newly issue'
+        
+        
+        
+       
           
 
