@@ -11,7 +11,7 @@ jobs:
       issues: write
     steps:
       - name: Transfer issue
-        uses: dpanayotov/issue-cloner@v0.2
+        uses: dpanayotov/issue-cloner@v0.3
         with:
             label: "clone"
             targetRepo: mentorchita/GenerationTech
