@@ -11,7 +11,7 @@ jobs:
       issues: write
     steps:
       - name: Transfer issue
-        uses: iaia/issue-copier@v1.X
+        uses: iaia/issue-copier@v1.2
         with:
           GITHUB_OWNER: 'mentorchita'
           GITHUB_REPOSITORY: 'newgen'
