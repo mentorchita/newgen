@@ -11,10 +11,9 @@ jobs:
       issues: write
     steps:
       - name: Transfer issue
-        uses: dpanayotov/issue-cloner@v0.2
+        uses: caquino/issue-cloner@v0.10
         with:
-            label: "clone"
-            targetRepo: mentorchita/GenerationTech
-            token: ${{ secrets.SECRET_TOKEN }}        
-          
-
+           sourceLabel: "clone"
+           destinationLabel: "cloned"
+           targetRepo: mentorchita/GenerationTech
+           token: ${{ secrets.SECRET_TOKEN }}
