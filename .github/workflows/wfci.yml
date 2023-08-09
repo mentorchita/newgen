@@ -10,11 +10,8 @@ jobs:
     permissions:
       issues: write
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        
       - name: Transfer issue
-        uses: dpanayotov/issue-cloner@v0.3
+        uses: dpanayotov/issue-cloner@v0.2
         with:
             label: "clone"
             targetRepo: mentorchita/GenerationTech
