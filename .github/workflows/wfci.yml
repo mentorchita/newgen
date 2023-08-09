@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Transfer issue
         uses: soichisumi/issue-copy-action@v0.2.0
-          with:
+        with:
             keyword: "/copy"
             targetRepository: mentorchita/newgen
             githubToken: ${{ secrets.SECRET_TOKEN }}
