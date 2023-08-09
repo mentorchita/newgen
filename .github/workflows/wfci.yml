@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: soichisumi/issue-copy-action@v0.2.0
+    - uses: soichisumi/issue-copy-action@v0.1.0
       with:
         keyword: "/copy"
         targetRepository: mentorchita/GenerationTech
