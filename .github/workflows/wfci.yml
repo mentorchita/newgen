@@ -10,20 +10,11 @@ jobs:
     permissions:
       issues: write
     steps:
-      - name: Setup node 16
-        uses: actions/setup-node@v3
-        with:
-              node-version: 16
       - name: Transfer issue
-        uses: soichisumi/issue-copy-action@v0.2.0
+        uses: dpanayotov/issue-cloner@v0.2
         with:
-            keyword: "/copy"
-            targetRepository: mentorchita/GenerationTech
-            githubToken: ${{ secrets.SECRET_TOKEN }}
-            contentOfNewIssue: 'newly issue'
-        
-        
-        
-       
+            label: "clone"
+            targetRepo: mentorchita/GenerationTech
+            token: ${{ secrets.SECRET_TOKEN }}        
           
 
