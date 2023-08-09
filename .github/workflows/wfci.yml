@@ -14,7 +14,7 @@ jobs:
         uses: soichisumi/issue-copy-action@v0.2.0
         with:
             keyword: "/copy"
-            targetRepository: mentorchita/newgen
+            targetRepository: mentorchita/GenerationTech
             githubToken: ${{ secrets.SECRET_TOKEN }}
             contentOfNewIssue: 'newly issue'
         
