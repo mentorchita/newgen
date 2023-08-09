@@ -10,6 +10,10 @@ jobs:
     permissions:
       issues: write
     steps:
+      - name: Setup node 16
+      - uses: actions/setup-node@v3
+        with:
+              node-version: 16
       - name: Transfer issue
         uses: soichisumi/issue-copy-action@v0.2.0
         with:
